@@ -1,0 +1,16 @@
+<header class="header">
+    <h1><a href="./upload" class="headerItem">UPLOAD</a></h1>
+    <h1><a href="./fileManager" class="headerItem">FILE MANAGER</a></h1>
+    <h1><a href="./Info" class="headerItem">INFO</a></h1>
+</header>
+<div class="container">
+    <div class="left">
+        <p>Upload plików</p>
+    </div>
+    <div class="content">
+        <form enctype="multipart/form-data" method="POST" action="/handleUpload">
+            <input type="file" multiple required name="filesUpload">
+            <input type="submit" value="send">
+        </form>
+    </div>
+</div>

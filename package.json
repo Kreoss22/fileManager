@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^2.0.1",
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "express-handlebars": "^5.3.4"
+  }
+}
